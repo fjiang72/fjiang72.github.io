@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
+    <title>FJ - Research</title>
+    <meta http-equiv="Content-Type" content="text/html;  charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="header">
+            <h1><a href="home.html" style="text-decoration:none; color:#fff "> frank&nbsp jiang </a></h1>
+        </div>
+
+        <div id="navigation">
+            <ul class="menu">
+              <li> <a href="home.html">Home</a></li>
+              <li class="current_page_item"><a href="research.html">Research</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <li><a href="workspace.html">Workspace</a></li>
+              <li> <a href="other.html">Other</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div class="center">
+                <h2>Current Research</h2>
+                    <h3>UAV Traffic Systems - UC Berkeley&nbsp [01/16 - Present]</h3>
+
+                    <h3>Learning Quadrotor Dynamics with Neural Networks - UC Berkeley&nbsp
+                        [02/16 - Present]</h3>
+
+                    <h3></h>
+                <h2>Past Research</h2>
+
+                    <h3>TRACER - UCSF&nbsp [03/15 - 08/15]</h3>
+                        <img src="https://docs.google.com/drawings/d/1t9HzD2YSkp52KoWi34Mu-djtiaOPDV86jdpKbkHfzkk/pub?w=685&h=721" width=200 style="float:left; margin-right:50px">
+                        <div> Co-advised by <a href="https://bms.ucsf.edu/directory/faculty/noah-zaitlen-phd"> Professor Noah Zaitlen</a> and
+                            <a href="http://mcmanuslab.ucsf.edu/users/mmcmanus#profile-profile">
+                            Professor Michael McManus</a>, I developed algorithms for reconstructing
+                            cell lineage phylogenies. The primary purposes of the project were to
+                            prove that such phylogenies were actually computationally 
+                            reconstructable and explore possible improvements to the biosystem,
+                            dubbed <a href="http://mcmanuslab.ucsf.edu/content/tracing-cell-lineages">
+                            TRACER </a>, used to enable the reconstruction of these cell lineages.
+                        </div>
+                        <div style="margin-top:10px"> Though my research focus is no longer on
+                            bioinformatics, feel free
+                            to discuss it with me, as I still find the field interesting.</div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <script language="Javascript">
+                document.write("LAST UPDATED - " + document.lastModified.slice(0,10) + "");
+            </script>
+        </div>
+
+    </div>
+</body>
+</html>

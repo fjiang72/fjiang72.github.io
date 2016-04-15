@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
+    <title>FJ - Other</title>
+    <meta http-equiv="Content-Type" content="text/html;  charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="header">
+            <h1><a href="home.html" style="text-decoration:none; color:#fff "> frank&nbsp jiang </a></h1>
+        </div>
+
+        <div id="navigation">
+            <ul class="menu">
+              <li> <a href="home.html">Home</a></li>
+              <li><a href="research.html">Research</a></li>
+              <li><a href="projects.html">Projects</a></li>
+              <!--<li><a href="workspace.html">Workspace</a></li>-->
+              <li class="current_page_item"> <a href="other.html">Other</a></li>
+              <li><a href="about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div class="center">
+                <h2>MCM</h2>
+                <p>The Mathematical Competition in Modeling (MCM) is an annual competition hosted by
+                    the Consortium for Mathematics and its Applications (COMAP). The goal of the
+                    competition is to solve one of two provided problems and write a paper-like
+                    solution to the chosen problem. Below are the details of the two years I
+                    participated in the competition.</p>
+                    <p> Please be mindful of the fact that these solutions were prepared over the
+                    course of only four days, so there will be typos and incomplete sections to
+                    our solutions.</p>
+
+                    <h3>2016 - A Hot Bath</h3>
+                    <p> A collaboration with <a href="http://nathanmull.com/" target="_blank">Nathan Mull</a> and Stephen Lu.
+                    This year we submitted a solution to <a href="http://www.immchallenge.org/mcm/2016_MCM_Problem_A.pdf" target="_blank">Problem
+                    A</a>. Here's a quick summary of the problem:</p>
+
+                    <p style="margin-left:40px; color:#000; font-style:italic">
+                    A person fills up a bathtub with hot water. Since the tub will naturally cool
+                    down and have an uneven temperature throughout, develop a model of the bathtub
+                    water and use that model to come up with a strategy to help the person keep the
+                    original temperature they filled the tub with and the water temperature as even
+                    throughout the tub as possible, without wasting too much water.
+                    </p>
+
+                    <p>This is our full, unedited <a href="mcm2016.pdf" target="_blank" style="text-decoration:none;">[solution]</a>.
+                    On a high-level, our solution is to model the bath tub with a set of PDE's and
+                    find the approximate solution to the boundary value problem with the finite element
+                    method (FEM). Then, using this approximate solution, use a hybrid model of the
+                    bath-taking experience to generate optimal control for a user with control over
+                    the faucet flow rate, faucet temperature, and moving to the front and back of the
+                    tub.</p>
+
+                    <p>The toolboxes we used were MATLAB's <a href="http://www.mathworks.com/products/pde/" target="_blank">PDE
+                    Toolbox</a> and the <a href="http://cse.lab.imtlucca.it/~bemporad/hybrid/toolbox/" target="_blank">Hybrid
+                    Toolbox</a> for
+                    MATLAB.</p>
+
+                    <h3>2015 - Searching for a lost plane</h3>
+                    <p> A collaboration with <a href="http://nathanmull.com/" target="_blank">Nathan Mull</a> and Stephen Lu.
+                    This year we submitted a solution to <a href="https://www.comap.com/undergraduate/contests/mcm/contests/2015/problems/" target="_blank">Problem
+                    B</a>. Here's the problem statement (from the MCM website):</p>
+
+                    <p style="margin-left:40px; color:#000; font-style:italic">
+                    Recall the lost Malaysian flight MH370. Build a generic mathematical model that
+                    could assist "searchers" in planning a useful search for a lost plane feared to
+                    have crashed in open water such as the Atlantic, Pacific, Indian, Southern, or
+                    Arctic Ocean while flying from Point A to Point B. Assume that there are no
+                    signals from the downed plane. Your model should recognize that there are many
+                    different types of planes for which we might be searching and that there are many
+                    different types of search planes, often using different electronics or sensors.
+                    Additionally, prepare a 1-2 page non-technical paper for the airlines to use in
+                    their press conferences concerning their plan for future searches.
+                    </p>
+
+                    <p>This our full, unedited <a href="mcm2016.pdf" target="_blank" style="text-decoration:none;">[solution]</a>.
+                    Our solution to this problem is a formulation for a probabilistic simulation of the
+                    plane's location. The idea is that by running this simulation which was built on
+                    our model of the dynamics of both a plane in the air and floating in the ocean
+                    search pilots could begin their searches from high probability peak locations.
+                    </p>
+            </div>
+        </div>
+
+        <div id="footer">
+            <script language="Javascript">
+                document.write("LAST UPDATED - " + document.lastModified.slice(0,10) + "");
+            </script>
+        </div>
+
+    </div>
+</body>
+</html>
