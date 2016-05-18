@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:300' rel='stylesheet' type='text/css'>
+    <title>FJ - Research</title>
+    <meta http-equiv="Content-Type" content="text/html;  charset=iso-8859-1" />
+    <link rel="stylesheet" type="text/css" href="../style/style.css" media="all" />
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="header">
+            <h1><a href="../index.html" style="text-decoration:none; color:#fff "> frank&nbsp jiang </a></h1>
+        </div>
+
+        <div id="navigation">
+            <ul class="menu">
+              <li> <a href="../index.html">Home</a></li>
+              <li class="current_page_item"><a href="../research/research.html">Research</a></li>
+              <li><a href="../projects/projects.html">Projects</a></li>
+              <!--<li><a href="../workspace/workspace.html">Workspace</a></li>-->
+              <li> <a href="../other/other.html">Other</a></li>
+              <li><a href="../about/about.html">About</a></li>
+            </ul>
+        </div>
+
+        <div id="content">
+            <div class="center">
+                <h2>Current Research</h2>
+                    <p style="margin-bottom:30px"></p>
+                    <h3>UAV Traffic Management (UTM) - UC Berkeley&nbsp [02/16 - Present]</h3>
+                        <p>A collaboration with <a href="http://www.eecs.berkeley.edu/~mochen72/" target='_blank'> Mo Chen</a>.</p>
+                        <div class="clearfix">
+                            <img src="../thumbnails/UTM_simulation.png" width=200 style="float:left; margin-right:
+                            30px; margin-bottom:10px">
+                            Many companies and groups are proposing projects like <a href="http://www.amazon.com/b?node=8037720011" target='_blank'>
+                            Amazon Prime Air</a> and Google[x]'s <a href="https://www.youtube.com/watch?v=cRTNvWcx9Oo" target='_blank'>
+                            Project Wing</a> to use UAVs to provide civilian services.
+                            To prepare for these ideas, we need to
+                            implement UAV traffic management (UTM) systems to ensure
+                            guarantees for these drones, such as safety and timeliness. The algorithms used to compute
+                            control that guarantee safety or timeliness are computationally intractable
+                            for large multi-agent systems, so several structural assumptions have been
+                            proposed to make these computations tractable, one of which is platooning.
+                            I am working on a hardware implementation of platooning as a proof of concept.
+                        </div>
+                    <p style="margin-bottom:30px"></p>
+                    <h3>Faster HJ-based Algorithms - UC Berkeley&nbsp [03/16 -
+                        Present]</h3>
+                        <p>A collaboration with <a href="https://www.linkedin.com/in/glen-chou-457292116" target='_blank'>Glen
+                        Chou</a> and <a href="http://www.eecs.berkeley.edu/~mochen72/" target='_blank'>
+                        Mo Chen</a>.</p>
+                        <div class="clearfix">
+                            <img src="../thumbnails/dubins.png" width=200 style="float:left; margin-right:30px; margin-bottom:10px">
+                            Hamilton-Jacobi reachability is a formulation that allows us
+                            to generate controls with certain guarantees, such as liveness and safety,
+                            for systems, independent of their linearity. However, the dynamic program
+                            underlying computing reachable sets has a running time complexity that
+                            grows exponentially with the number of states of a system. Several methods
+                            are used to approximate these reachable sets in order to avoid this slow
+                            computation, but these methods cannot always deliver our desired
+                            guarantees. We are working on a technique that will more efficiently
+                            compute reachable sets and maintain the same guarantees that vanilla
+                            HJ-based algorithms provide.
+                        </div>
+
+                    <p style="margin-bottom:30px"></p>
+                    <h3>Learning Quadrotor Dynamics with Neural Networks - UC Berkeley&nbsp
+                        [02/16 - Present]</h3>
+                    <p>A collaboration with Somil Bansal and Kene Akamatelu.</p>
+                        <div class="clearfix">
+                            <img src="../thumbnails/Cf.jpeg" width=200 style="float:left; margin-right:30px; margin-bottom:10px">
+                            Models for
+                            quadrotor dynamics are well-established
+                            and can be used for generating good control. However, in general, controllers
+                            for quadrotors are derived from a linearization of the dynamics, which
+                            means that there are phenomenon that are purposely not accounted for in
+                            order to achieve a linear model for deriving control. This project aims
+                            to utilize neural nets to learn a higher fidelity model that includes
+                            previously unmodeled phenomenon in hopes to generate better control. My
+                            main contribution is providing data and system details for training the
+                            neural networks.
+                        </div>
+
+                    <p style="margin-bottom:30px"></p>
+                    <h3>Crazyflie 2.0 Testbed- UC Berkeley&nbsp [11/15 - Present]</h3>
+                        <div class="clearfix">
+                            <img src="../thumbnails/cf2_props.png" width=200 style="float:left; margin-right:30px; margin-bottom:10px">
+                            This is a collaborative effort between all members of <a href="http://hybrid.eecs.berkeley.edu/index.html" target='_blank'> Hybrid
+                            Systems Laboratory</a> who work on quadrotors. The goal of this project
+                            is to set up a framework for using <a href="https://www.bitcraze.io/" target='_blank'>
+                            Bitcraze</a>'s Crazyflie 2.0 to run control and robotics experiments on.
+                            Since the Crazyflie 2.0's are cheap, small, easily reparable, robust to
+                            impacts and open
+                            source, they are an ideal experiment platform.
+                        </div>
+                    <p> I maintain a <a href="https://www.youtube.com/channel/UCrcb-S7IvxfrcJm25ATHhvg" style="text-decoration:none; color:#ff3333" target='_blank'>
+                        [youtube channel]</a> for all of my research videos.
+                    <p style="margin-bottom:30px"></p>
+                <h2>Past Research</h2>
+                    <p style="margin-bottom:30px"></p>
+                    <h3>TRACER - UCSF&nbsp [03/15 - 08/15]</h3>
+                        <div class="clearfix">
+                            <img src="https://docs.google.com/drawings/d/1t9HzD2YSkp52KoWi34Mu-djtiaOPDV86jdpKbkHfzkk/pub?w=1028&h=1082" width=200 style="float:left; margin-right:30px; margin-bottom:10px">
+                            Co-advised by <a href="https://bms.ucsf.edu/directory/faculty/noah-zaitlen-phd" target='_blank'> Professor Noah Zaitlen</a> and
+                            <a href="http://mcmanuslab.ucsf.edu/users/mmcmanus#profile-profile" target='_blank'>
+                            Professor Michael McManus</a>, I developed algorithms for reconstructing
+                            cell lineage phylogenies. The primary purposes of the project were to
+                            prove that such phylogenies are actually computationally 
+                            reconstructable and explore possible improvements to the underlying <a href="http://mcmanuslab.ucsf.edu/content/tracing-cell-lineages" target='_blank'>lineage
+                            tracing biosystem</a> used to enable the reconstruction of
+                            these cell lineages.
+                            <p style="margin-bottom:10px"></p>
+                            <div>Though my research focus is no longer on bioinformatics, feel free
+                            to discuss it with me, as I still find the field interesting.</div>
+                        </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <script language="Javascript">
+                document.write("LAST UPDATED - " + document.lastModified.slice(0,10) + "");
+            </script>
+        </div>
+
+    </div>
+</body>
+</html>
